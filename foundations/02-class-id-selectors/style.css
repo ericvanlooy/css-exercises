@@ -1,0 +1,18 @@
+.class {
+background-color: #ffc0cb;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#number2 {
+    color: #0000ff;
+    font-size: 36px;
+}
+.class.two {
+    font-size: 24px;
+}
+
+#number4 {
+    background-color: #90ee90;
+    font-size: 24px;
+    font-weight: 700;
+}
