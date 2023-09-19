@@ -27,6 +27,7 @@ img {
 }
 .plants {
   display: flex;
+  justify-content: center;
   padding: 32px;
   gap: 52px;
 
