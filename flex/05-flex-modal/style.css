@@ -67,3 +67,24 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+.modal {
+  display: flex;
+  padding: 16px;
+  gap: 16px;
+}
+.icon {
+  flex-shrink: 0; /*prevents ! from shrinking, keeps declared width*/
+}
+.header {
+  display: flex;
+  justify-content: space-between; /*keeps them on either side of container*/
+  align-items: center; /*minimal difference verically*/
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px; /*adds small gap between header and text*/
+}
+.text {
+  margin-bottom: 16px; /*adds small gap between text and buttons*/
+}
+
+/*.container class div does not need to be flex: text div = box element, with 2 "button" inline elements next to each other underneath"*/
