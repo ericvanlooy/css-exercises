@@ -49,31 +49,32 @@ body {
 }
 .sidebar {
   flex-shrink: 0;
-  align-self: stretch;
   padding: 16px;
+  align-self: stretch; /*not in solution*/
 }
 .card {
   width: 300px;
-  height: 200px;
+  height: 200px; /*not in solution*/
   padding: 16px;
-  border: 1px solid gray;
   margin: 16px;
-  box-shadow: 10px 10px 5px lightgrey;
 }
 .container {
   display: flex;
   flex: 1;
-  align-items: flex-start;
+  align-items: flex-start;/*not in solution, which has no fixed card height*/
 }
 .card-container {
   display: flex;
   flex-wrap: wrap;
+  padding:32px; /*not added in original*/
 }
 ul {
   list-style: none;
+  margin: 0; /*otherwise default bottom margin of 16px applies*/
+  padding: 0;/*otherwise defauklt left padding of 40px applies*/
 }
 li {
-  padding-bottom: 8px;
+  margin-bottom: 16px;
 }
 a {
   text-decoration: none;
