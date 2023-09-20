@@ -5,10 +5,11 @@ In this last flexbox exercise you're going to recreate an incredibly common webs
 As with the previous exercise, we've left a little more for you to do.
 
 ### Hints
-- You will need to change the flex-direction to push the footer down.
-- You will need to add some divs as containers to get things to line up correctly.
-- `flex-wrap` will help get the cards aligned correctly.
--  Make sure you define how much space the cards should take up, in order for `flex-wrap` to work as intended.
+- You will need to change the flex-direction to push the footer down.<!--body flex column, container flex 1-->
+- You will need to add some divs as containers to get things to line up correctly.<!--1 container to wrap sidebar and card-container, 1 card-container to wrap cards-->
+- `flex-wrap` will help get the cards aligned correctly. <!--applied to card-container-->
+
+-  Make sure you define how much space the cards should take up, in order for `flex-wrap` to work as intended. <!--fixed width and height added to card-->
 
 ## Desired outcome
 
